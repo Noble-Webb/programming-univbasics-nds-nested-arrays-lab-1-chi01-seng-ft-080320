@@ -42,6 +42,9 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
+  produce_storage = [
+    CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE
+    ]
   matrix[row][column] = new_value
  
   # Given any matrix (array of arrays), a row index and a column index, 
